@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg">
+  <a href="/" class="navbar-brand">
+    <span class="sitename">
+      <strong class="event">Origin</strong>
+      <span class="date">{{ 'June 14-16, 2018'|trans }}</span>
+    </span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar--main" aria-controls="navbar--main" aria-expanded="false" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar--main">
+      {{ page.navigation }}
+  </div>
+
+</nav>
+
+{% block banner %}
+  {% if page.banner %}
+    {{ page.banner }}
+  {% endif %}
+{% endblock %}
+
+<main id="main-wrapper" class="container">
+  <a id="main-content" tabindex="-1"></a>
+  {{ page.content }}
+</main>
+
+{% block content_full_width %}
+  {% if page.content_full_width %}
+    <section id="content--full-width">
+      {{ page.content_full_width }}
+    </section>
+  {% endif %}
+{% endblock %}
+
+<footer class="footer">
+  <div class="container">
+    {{ page.footer_1 }}
+    {{ page.footer_2 }}
+  </div>
+</footer>

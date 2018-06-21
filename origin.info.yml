@@ -1,0 +1,18 @@
+core: 8.x
+type: theme
+base theme: classy
+
+name: 'Origin'
+description: 'Drupal 8 theme with Bootstrap 4 and Gulp workflow'
+package: 'EW'
+
+regions:
+  navigation: 'Navigation'
+  banner: 'Banner'
+  content: 'Content'
+  content_full_width: 'Content full width'
+  footer_1: 'Footer 1'
+  footer_2: 'Footer 2'
+
+libraries:
+  - 'origin/global-styling'

@@ -1,0 +1,21 @@
+/**********************************************
+ * Overwrite Bootstrap variables
+ **********************************************/
+
+// Font
+@import url('https://fonts.googleapis.com/css?family=Lato|Monoton');
+$font-family-sans-serif: 'Lato', sans-serif;
+
+$headings-font-weight: 900;
+
+// Link
+$link-color: #db2427; 
+$link-decoration: none;
+$link-hover-color: rgba( 0, 0, 0, .4 );
+$link-hover-decoration: none;
+
+
+/**********************************************
+ * Overwrite FontAwesome variables
+ **********************************************/
+$fa-font-path: '../bower_components/fontawesome/web-fonts-with-css/webfonts';

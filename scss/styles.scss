@@ -1,0 +1,20 @@
+
+@import "variables";
+
+// Include SASS from Bower packages
+@import "../bower_components/bootstrap/scss/bootstrap.scss";
+@import "../bower_components/fontawesome/web-fonts-with-css/scss/fontawesome.scss";
+
+// Include partials SASS
+@import "partials/mixins";
+@import "partials/typography";
+@import "partials/misc";
+
+@import "partials/navigation";
+
+@import "partials/layout";
+@import "partials/block";
+@import "partials/node";  
+@import "partials/paragraph";
+@import "partials/form";
+@import "partials/views";

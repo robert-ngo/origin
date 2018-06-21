@@ -1,0 +1,23 @@
+{
+  "name": "Origin",
+  "description": "Package manager for Origin theme",
+  "main": "index.js",
+  "authors": [
+    "Robert NG <robert.ng.1125@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "fontawesome": "^5.0.8",
+    "flipclock": "^0.7.7",
+    "fancybox": "fancyBox#^3.3.5"
+  }
+}
